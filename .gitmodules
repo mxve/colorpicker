@@ -1,0 +1,3 @@
+[submodule "InputHelper"]
+	path = InputHelper
+	url = git@github.com:mxve/InputHelper.git

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ColorPicker", "ColorPicker\ColorPicker.vbproj", "{57036A18-BC21-4D20-B82E-58D286752161}"
+EndProject
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "InputHelper", "..\InputHelper\InputHelper\InputHelper.vbproj", "{E2930752-EE08-4C2A-B675-CB2A8B5895C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57036A18-BC21-4D20-B82E-58D286752161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57036A18-BC21-4D20-B82E-58D286752161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57036A18-BC21-4D20-B82E-58D286752161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57036A18-BC21-4D20-B82E-58D286752161}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2930752-EE08-4C2A-B675-CB2A8B5895C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2930752-EE08-4C2A-B675-CB2A8B5895C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2930752-EE08-4C2A-B675-CB2A8B5895C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2930752-EE08-4C2A-B675-CB2A8B5895C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D782388E-512E-4F6F-8400-BE70052CC5C1}
+	EndGlobalSection
+EndGlobal

@@ -23,6 +23,7 @@ Partial Class main
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(main))
         Me.previewUpdater = New System.Windows.Forms.Timer(Me.components)
         Me.history = New System.Windows.Forms.ListBox()
         Me.btnPick = New System.Windows.Forms.Button()
@@ -67,6 +68,7 @@ Partial Class main
         Me.Controls.Add(Me.history)
         Me.ForeColor = System.Drawing.Color.FromArgb(CType(CType(212, Byte), Integer), CType(CType(212, Byte), Integer), CType(CType(212, Byte), Integer))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "main"
         Me.Text = "Desktop Color Picker"
         Me.ResumeLayout(False)

@@ -22,6 +22,7 @@ Partial Class result
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(result))
         Me.txtHEX = New System.Windows.Forms.TextBox()
         Me.txtCMYK = New System.Windows.Forms.TextBox()
         Me.txtRGB = New System.Windows.Forms.TextBox()
@@ -196,6 +197,7 @@ Partial Class result
         Me.Controls.Add(Me.txtRGBA)
         Me.ForeColor = System.Drawing.Color.FromArgb(CType(CType(212, Byte), Integer), CType(CType(212, Byte), Integer), CType(CType(212, Byte), Integer))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "result"
         Me.Text = "Color Picker Result"
         Me.Panel1.ResumeLayout(False)
